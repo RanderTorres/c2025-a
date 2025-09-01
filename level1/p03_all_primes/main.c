@@ -20,6 +20,7 @@ int main()
 
     cpu_time_used = ((double)(end - start))/CLOCKS_PER_SEC;
     printf("\nTime used: %f seconds.",cpu_time_used);
+
     return 0;
 }
 
