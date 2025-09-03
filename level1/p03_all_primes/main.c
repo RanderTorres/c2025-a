@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <time.h>
+#include <math.h>
 
 int is_prime(int n);
 
@@ -30,7 +31,7 @@ int is_prime(int n)
     {
         return 0;
     }
-    for (int i=2;i<=n/2;i++)    // 节省时间，只需算到二分之n
+    for (int i=2;i<=sqrt(n);i++)    // 节省时间，只需算到sqrt(n)
     {
         if (n%i==0)
         {
