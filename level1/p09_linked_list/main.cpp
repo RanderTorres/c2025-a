@@ -9,6 +9,7 @@ struct ListNode {
     ListNode(int val) : value(val), next(nullptr) {}
 };
 
+
 class LinkedList {
 private:
     ListNode* head;
