@@ -14,6 +14,7 @@ typedef struct {
 Product inventory[MAX_ITEMS];
 int item_count = 0;
 
+
 void loadInventory();
 void saveInventory();
 void displayMenu();
