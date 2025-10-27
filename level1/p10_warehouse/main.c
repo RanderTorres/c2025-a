@@ -21,6 +21,7 @@ void showInventory();
 void addStock();
 void removeStock();
 
+
 int main() {
     // 程序启动时加载库存数据
     loadInventory();
