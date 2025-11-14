@@ -31,7 +31,7 @@ typedef struct {
     int level;
 } Game;
 
-// 函数声明
+
 void initGame(Game *game);
 void loadLevel(Game *game, int level);
 void drawMap(Game *game);
@@ -40,6 +40,7 @@ int checkWin(Game *game);
 void saveScore(Game *game);
 void freeGame(Game *game);
 void clearScreen();
+
 
 int main() {
     Game game;
